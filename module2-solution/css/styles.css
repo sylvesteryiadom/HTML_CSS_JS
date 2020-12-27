@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jura', sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.row {
+  justify-content: center;
+}
+
+h6 {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2px;
+  height: 30px;
+  width: 100px;
+  top: 0;
+  left: 295px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+p {
+  padding-top: 40px;
+  align-items: center;
+}
+
+.col-md-3 {
+  position: relative;
+  background-color: grey;
+  border: 3px solid black;
+  height: 170px;
+  width: 400px;
+  margin: 7px;
+  font-weight: bold;
+}
+
+#chicken {
+  background-color: yellowgreen;
+}
+
+#beef {
+  background-color: salmon;
+  color: white;
+}
+
+#sushi {
+  background-color: brown;
+}
